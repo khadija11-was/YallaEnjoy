@@ -1,5 +1,6 @@
 package oi.hamadeni.yallaenjoy.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
