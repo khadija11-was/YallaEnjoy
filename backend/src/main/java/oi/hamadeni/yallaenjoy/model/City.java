@@ -20,6 +20,8 @@ public class City {
     @Column(nullable=false)
     private double longitude;
     private boolean active = true;
+    @Column(nullable=true) //á changer en prod
+    private String imageUrl;
 
 
 
